@@ -48,8 +48,8 @@ def graficoComparativo(dadosUm, dadosDois, causa = "Todas", estado = "Brasil"):
 
 
 def main():
-    dados2019 = carregaDados("dados\obitos-2019.csv")
-    dados2020 = carregaDados("dados\obitos-2020.csv")
+    dados2019 = carregaDados("dados/obitos-2019.csv")
+    dados2020 = carregaDados("dados/obitos-2020.csv")
     
     st.title("Análise de óbitos 2019-2020")
     st.markdown("Este trabalho analisa os dados de óbitos por diversas causas nos anos de 2019 e 2020")
