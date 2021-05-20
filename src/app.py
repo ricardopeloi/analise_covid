@@ -4,9 +4,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
+#from time import sleep
+
+@st.cache
 def carregaDados(caminho):
     dados = pd.read_csv(caminho)
 
+    #sleep(3) simulando uma base que demora
+    
     return dados
 
 
